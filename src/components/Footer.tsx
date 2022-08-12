@@ -4,7 +4,7 @@ import Image from 'next/image'
 export const Footer: NextPage = () => {
     return (
         <div>
-            <footer className="bg-gray-400">
+            <footer className="absolute bottom-0 w-screen bg-gray-400">
                     <a
                     href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
                     target="_blank"
