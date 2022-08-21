@@ -1,7 +1,10 @@
 import type { NextPage } from 'next'
+
 import { Footer } from '../layout/Footer'
 import { Header } from '../layout/Header'
 import { Hero } from '../components/hero/Hero'
+import { Blog } from '../components/blog/Blog'
+
 import Head from 'next/head'
 
 const Home: NextPage = () => {
@@ -14,15 +17,15 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-
       <Hero />
-      <main className=''>
-        <div>
-          <div className=''>
 
-          </div>
+      {/* メインコンテンツ */}
+      <main className='flex items-center justify-center'>
+        <div className='flex flex-col w-[960px]'>
+          <Blog />
         </div>
       </main>
+      
 
       <Footer />
     </div>

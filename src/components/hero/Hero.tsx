@@ -9,7 +9,6 @@ export const Hero: FC = () => {
             <h1 className='text-[36px] font-bold'>Shimabu IT University</h1>
             <p className='text-[16px]'>しまぶーのポートフォリオのためのページです</p>
           </div>
-          
         </div>
       </div>
     </div>
