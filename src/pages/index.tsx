@@ -7,6 +7,8 @@ import { Blog } from '../components/blog/Blog'
 import { Portfolio } from '../components/portfolio/Portfolio'
 
 import Head from 'next/head'
+import { Github } from '../components/github/Github'
+import { Twitter } from '../components/twitter/Twitter'
 
 const Home: NextPage = () => {
   return (
@@ -25,7 +27,16 @@ const Home: NextPage = () => {
         <div className='flex flex-col w-[960px]'>
           <Blog />
           <Portfolio />
+          <div className='flex flex-row'>
+            <div className='flex-1'>
+              <Github />
+            </div>
+            <div className='flex-1  ml-10'>
+              <Twitter />
+            </div>
         </div>
+        </div>
+        
       </main>
       
 
