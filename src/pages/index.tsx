@@ -4,6 +4,7 @@ import { Footer } from '../layout/Footer'
 import { Header } from '../layout/Header'
 import { Hero } from '../components/hero/Hero'
 import { Blog } from '../components/blog/Blog'
+import { Portfolio } from '../components/portfolio/Portfolio'
 
 import Head from 'next/head'
 
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
       <main className='flex items-center justify-center'>
         <div className='flex flex-col w-[960px]'>
           <Blog />
+          <Portfolio />
         </div>
       </main>
       
