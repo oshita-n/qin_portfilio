@@ -4,17 +4,12 @@ import { FC, ReactNode } from 'react';
 export const Footer: FC = () => {
   return (
     <div>
-      <footer className="absolute bottom-0 w-screen bg-gray-400">
-        <a
-        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
-        >
-        Powered by{' '}
-        <span className="">
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </span>
-        </a>
+      <footer className="absolute bottom-0 w-screen border border-[#E9ECEF]">
+        <div className='flex items-center justify-center h-[65px] text-[10px] text-[#868E96]'>
+          <div className='flex flex-col'>
+            <p>© 2022 Shimabu IT University</p>
+          </div>
+        </div>
       </footer>
     </div>
   )
