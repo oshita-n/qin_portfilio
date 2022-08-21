@@ -13,7 +13,10 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-
+      <div className="w-screen bg-[#E64980] text-white">
+        <div className="flex h-[248px] max-w-7xl flex-col justify-around p-4 sm:mx-auto sm:flex-row sm:items-center sm:justify-between md:pr-20 lg:pr-36">
+        </div>
+      </div>
       <main className=''>
         <div>
           <div className=''>
