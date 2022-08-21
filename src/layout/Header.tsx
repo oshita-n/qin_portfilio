@@ -1,9 +1,9 @@
-import type { NextPage } from 'next'
+import { FC, ReactNode } from 'react';
 
-export const Header: NextPage = () => {
+export const Header: FC = () => {
   return (
     <div>
-      <header className='flex w-screen h-[65px] bg-sky-400 items-center justify-center'>
+      <header className='flex w-screen h-[65px] items-center justify-center'>
         <h1 className='ml-5'>Shimabu IT University</h1>
         <ul className='flex ml-auto mr-5'>
             <li className='ml-2'><a href='#'>About</a></li>
@@ -13,5 +13,5 @@ export const Header: NextPage = () => {
         </ul>
       </header>
     </div>
-  )
-}
+  );
+};
