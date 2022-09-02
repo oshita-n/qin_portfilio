@@ -17,10 +17,11 @@ export const Portfolio: FC = () => {
   let filteredData = data.slice(0, numberToShow);
   return (
     <div>
-      <div className='border-b border-[#E9ECEF] mt-[80px]'>
-          <h1 className='font-bold mb-[20px]'>Portfolio</h1>
-      </div>
-      <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      <h1 className='font-bold mb-[20px] mt-[80px]'>Portfolio</h1>
+      <div className='border-b border-[#E9ECEF]'></div>
+
+      {/* コンテンツ表示部分 */}
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 mt-[10px]">
         {filteredData.map((item) => {
           return (
             <CardPortion
@@ -32,7 +33,8 @@ export const Portfolio: FC = () => {
             />
           );
         })}
-      </ul>
+      </div>
+
     </div>
   );
 };
