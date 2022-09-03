@@ -9,7 +9,7 @@ export const Header: FC = () => {
             <li className='ml-2'><a href='/about'>About</a></li>
             <li className='ml-2'><a href='#'>Blog</a></li>
             <li className='ml-2'><a href='#'>Portfolio</a></li>
-            <li className='ml-2'><a href='#'>Contact</a></li>
+            <li className='ml-2'><a href='/contact'>Contact</a></li>
         </ul>
       </header>
     </div>
