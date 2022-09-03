@@ -34,6 +34,9 @@ export const Portfolio: FC = () => {
           );
         })}
       </div>
+      <div className="text-center">
+          <button className="bg-[#25262B] text-white px-4 py-2 rounded-full mt-2">View All</button>
+      </div>
 
     </div>
   );
