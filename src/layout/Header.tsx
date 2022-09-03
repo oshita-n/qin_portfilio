@@ -4,7 +4,7 @@ export const Header: FC = () => {
   return (
     <div>
       <header className='flex w-screen h-[65px] items-center justify-center font-bold'>
-        <h1 className='ml-5'>Shimabu IT University</h1>
+        <li className="list-none"><a href="/"><h1 className='ml-5'>Shimabu IT University</h1></a></li>
         <ul className='flex ml-auto mr-5'>
             <li className='ml-2'><a href='/about'>About</a></li>
             <li className='ml-2'><a href='#'>Blog</a></li>
