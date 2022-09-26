@@ -4,7 +4,7 @@ import { GithubItem } from './GithubItem';
 export const Github: FC = () => {
   return (
     <div>
-        <div className='border-b border-[#E9ECEF] mt-[80px]'>
+        <div className='border-b border-[#E9ECEF] mt-[80px] mb-2'>
             <h1 className='font-bold mb-[20px]'>Github</h1>
         </div>
         <GithubItem />
