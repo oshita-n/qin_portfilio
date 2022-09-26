@@ -4,7 +4,6 @@ import { useViewportSize } from "../../lib/mantine/useViewportSize";
 import { useRouter } from "next/router";
 import { ContentsPortion } from './BlogItem';
 
-
 export const Blog: FC = () => {
   const router = useRouter();
   const root = router.asPath === "/";
